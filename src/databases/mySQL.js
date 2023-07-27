@@ -4,6 +4,8 @@ dotenv.config();
 
 import mysql from 'mysql';
 
+
+
 let mySQL = mysql.createConnection({
   host     : process.env.MY_SQL_HOST,
   user     : process.env.MY_SQL_USER_NAME,
